@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) and (max-width:992px) {
+   section#login{
+    width: 90vw;
+   }
+   div#foto {
+    background-image: url(../img/foto01.jpeg);
+    float: left;
+    width: 40%;
+    height: 100%
+   }
+   
+div#formu {
+    float: right;
+    width: 60%;
+    height: 100%
+}
+}
+
+@media screen and (min-width:992px) and (max-width:1400px) {
+    section#login{
+        width: 90vw;
+       }
+       div#foto {
+        background-image: url(../img/foto03.jpeg);
+        float: right;
+        width: 40%;
+        height: 100%
+       }
+       div#formu {
+        float: left;
+        width: 60%;
+        height: 100%
+    }
+}
+ 
+@media screen and (min-width:1400px)  {
+    section#login{
+        width: 90vw;
+       }
+       div#foto {
+        background-image: url(../img/foto04.jpg);
+        float: left;
+        width: 40%;
+        height: 100%
+       }
+       div#formu {
+        float: right;
+        width: 60%;
+        height: 100%
+    }
+}
