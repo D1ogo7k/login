@@ -19,11 +19,18 @@ main {
     position: relative;
     height: 100vh;
     width: 100vw;
-background-image: linear-gradient(to top, rgb(70, 0, 0), rgb(0, 0, 0));
+background-image: linear-gradient(to top, rgb(48, 12, 12), rgb(0, 0, 0));
   
     
 }
 
+#foto {
+    background-image: url(../img/foto02.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
 
 section#login {
   position: absolute;
@@ -39,10 +46,24 @@ section#login {
 
 }
 
-#foto {
-    background-image: url(../img/foto02.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 200px;
+
+
+div#formu{
+  background-image: url(../img/fundo01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 130px;
+}
+div#formu > h1{
+  color: rgb(85, 0, 0);
+  text-align: center;
+  margin-bottom: 10px ;
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.596);
+
+}
+div#formu >p {
+  color: rgb(119, 49, 49);
+  text-align:center;
+  
 }
