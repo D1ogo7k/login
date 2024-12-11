@@ -19,12 +19,15 @@ main {
     position: relative;
     height: 100vh;
     width: 100vw;
-background-image: linear-gradient(to top, rgb(48, 12, 12), rgb(0, 0, 0));
-  
+background-image: url(../img/fundo04.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
     
 }
 
 #foto {
+  
     background-image: url(../img/foto02.jpeg);
     background-position: center;
     background-repeat: no-repeat;
@@ -37,8 +40,8 @@ section#login {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 250px;
-  height: 500px;
+  width:80vw;
+  height: 70vh;
   overflow: hidden;
   background-color: rgb(255, 255, 255);
   border-radius: 20px;
@@ -53,17 +56,64 @@ div#formu{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 130px;
+  padding-bottom: 280px;
 }
 div#formu > h1{
-  color: rgb(85, 0, 0);
+  
+  color: rgb(255, 255, 255);
   text-align: center;
   margin-bottom: 10px ;
-  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.596);
+  font-size: 30px;
+  text-shadow: 0px 0px 17px rgb(79 0 233);
 
 }
 div#formu >p {
-  color: rgb(119, 49, 49);
+  color: rgb(255, 255, 255);
   text-align:center;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+div.campo {
+  text-align: center;
+  margin-bottom: 20px;
   
+}
+div >span {
+  color: aliceblue;
+}
+
+div.bt {
+  text-align: center;
+ 
+}
+div.bt>input{
+  border-radius: 5%;
+width: 90%;
+padding: 10px; 
+color: white;
+background-color: rgb(51, 0, 99);
+
+
+}
+
+div.bt>input:hover{
+  transition-duration: 0.5s;
+  color: black;
+  background-color: rgb(122, 0, 236);
+}
+
+div.es{
+  padding: 10px;
+  margin-top: 20px;
+text-align: center;
+}
+
+div.es> a{
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  background-color:  rgb(58, 45, 70);
+  padding: 10px;
+  box-shadow: 1px 1px 1px black;
 }
